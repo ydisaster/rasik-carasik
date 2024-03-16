@@ -1,0 +1,30 @@
+body {
+    font-family: "Bacasime Antique", serif;
+    font-weight: 800;
+    font-style: normal;
+    background-color: rgb(252, 216, 222);
+    text-align: center;
+  }
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.btn-group .button {
+  background-color: #aa0481;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.btn-group .button:hover {
+  background-color: #f93ee3;
+}
+.message-container{
+    background-color: white;
+    width:500px; 
+    height:600px;
+    margin: 0 auto;
+}
